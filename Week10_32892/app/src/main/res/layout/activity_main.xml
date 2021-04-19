@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+    <TextView android:paddingTop="200dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content" />
+
+    <Button
+
+        android:id="@+id/Week10a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Week10A"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp" />
+
+
+    <Button
+        android:id="@+id/Week10b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Week10B"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        />
+
+    <Button
+        android:id="@+id/Week10c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Week10C"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        />
+
+
+</LinearLayout>
